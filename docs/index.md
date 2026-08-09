@@ -1,33 +1,34 @@
 ---
 layout: home
-title: 材料智能论文精读
+title: 论文精读
 
 hero:
-  name: 材料智能论文精读
-  text: 从公式, 数据和实验读懂论文
-  tagline: 不止复述摘要. 这里追踪每项主张的证据, 解释模型为何有效, 也指出结论的适用边界.
+  name: 论文精读
+  text: 从原文, 公式和证据真正读懂论文
+  tagline: 跨越学科标签, 追踪每项主张的依据, 拆解方法为何有效, 也指出结论不能推出什么.
   actions:
     - theme: brand
-      text: 开始阅读 MatterSim
-      link: /mattergen/mattersim/
+      text: 浏览论文库
+      link: /papers/
     - theme: alt
       text: 查看阅读方法
       link: /guide/reading-method
 
 features:
-  - title: 物理问题
-    details: 从势能面, 力, 应力和自由能出发, 说明模型究竟在近似什么.
-  - title: 模型机制
-    details: 拆解数据生成, 主动学习, 图神经网络, 等变性和微调过程.
+  - title: 忠于原文
+    details: 英文引文逐句取自论文, 并给出章节, 图表或补充材料定位.
+  - title: 拆解机制
+    details: 从研究问题进入模型, 数据, 数学和实验, 补齐论文压缩掉的推理步骤.
   - title: 证据审计
-    details: 区分作者报告的结果, 可以合理推出的结论, 以及仍缺少的验证.
+    details: 区分作者报告的结果, 证据实际支持的结论, 以及尚未回答的问题.
 ---
 
 ## 当前进度
 
 | 专题 | 论文 | 状态 |
 | --- | --- | --- |
-| MatterGen 与材料基础模型 | [MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](/mattergen/mattersim/) | 已完成第一轮精读 |
+| 原子尺度基础模型 | [MatterSim-MT: A multi-task foundation model for in silico materials characterization](/papers/mattersim-mt/) | 已完成第一轮精读 |
+| 原子尺度基础模型 | [MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](/mattergen/mattersim/) | 已完成第一轮精读 |
 | MatterGen 与生成式材料设计 | A generative model for inorganic materials design | 待精读 |
 | 通用机器学习原子间势 | DPA-2, UMA, PET-MAD, MatRIS 等 | 待精读 |
 

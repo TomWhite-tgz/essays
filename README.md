@@ -1,6 +1,6 @@
-# 材料智能论文精读
+# 论文精读
 
-本仓库使用 Markdown 编写论文讲解, 使用 VitePress 和 MathJax 构建静态网页, 并通过 GitHub Actions 发布到 GitHub Pages.
+本仓库使用 Markdown 编写跨学科论文讲解, 使用 VitePress 和 MathJax 构建静态网页, 并通过 GitHub Actions 发布到 GitHub Pages.
 
 ## 本地预览
 
@@ -35,4 +35,4 @@ npm run docs:build
 - 从 arXiv 下载的 TeX 源码位于 `sources/`, 并由 `.gitignore` 排除.
 - 原始论文 PDF 也由 `.gitignore` 排除.
 
-当前完成的第一篇精读是 `arXiv:2405.04967v2`, 即 MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures.
+论文总目录位于 `docs/papers/`. 当前已收录 MatterSim 与 MatterSim-MT, 后续论文可以各自使用独立目录, 分页阅读路线和原文定位索引.

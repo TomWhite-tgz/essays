@@ -4,8 +4,8 @@ const base = process.env.BASE_PATH || "/";
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "材料智能论文精读",
-  description: "MatterGen 与机器学习原子间势论文的中文精读, 推导和批判性分析.",
+  title: "论文精读",
+  description: "跨学科论文的中文精读, 数学推导, 证据审计和批判性分析.",
   base,
   cleanUrls: true,
   lastUpdated: true,
@@ -30,7 +30,7 @@ export default defineConfig({
     ],
   ],
   themeConfig: {
-    siteTitle: "材料智能论文精读",
+    siteTitle: "论文精读",
     outline: {
       level: [2, 3],
       label: "本页目录",
@@ -57,14 +57,15 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
-      { text: "MatterSim", link: "/mattergen/mattersim/" },
+      { text: "论文库", link: "/papers/" },
+      { text: "MatterSim-MT", link: "/papers/mattersim-mt/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
       {
         text: "开始阅读",
         items: [
-          { text: "论文地图", link: "/" },
+          { text: "论文库", link: "/papers/" },
           { text: "如何使用精读站", link: "/guide/reading-method" },
         ],
       },
@@ -83,7 +84,21 @@ export default defineConfig({
         ],
       },
       {
-        text: "后续专题",
+        text: "MatterSim-MT",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/mattersim-mt/" },
+          { text: "1. 从势能面到多任务", link: "/papers/mattersim-mt/problem" },
+          { text: "2. 数据, 主动学习与 scaling", link: "/papers/mattersim-mt/data" },
+          { text: "3. 模型结构与损失函数", link: "/papers/mattersim-mt/model" },
+          { text: "4. 势能面能力与迁移", link: "/papers/mattersim-mt/pes-evidence" },
+          { text: "5. 多任务物理案例", link: "/papers/mattersim-mt/multitask" },
+          { text: "6. 局限与审读结论", link: "/papers/mattersim-mt/critique" },
+          { text: "原文定位索引", link: "/papers/mattersim-mt/source-map" },
+        ],
+      },
+      {
+        text: "专题入口",
         collapsed: true,
         items: [
           { text: "MatterGen", link: "/mattergen/" },
@@ -92,7 +107,7 @@ export default defineConfig({
       },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/microsoft/mattersim" },
+      { icon: "github", link: "https://github.com/TomWhite-tgz/essays" },
     ],
     lastUpdated: {
       text: "最后更新",

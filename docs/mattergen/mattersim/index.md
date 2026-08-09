@@ -75,3 +75,7 @@ MatterSim 是一篇以数据覆盖和系统验证为核心的工作. 它对 "通
 - [arXiv 摘要与版本记录](https://arxiv.org/abs/2405.04967).
 - [Microsoft 官方代码仓库](https://github.com/microsoft/mattersim).
 - 本站分析基于 `2405.04967v2` 的 TeX 源码, 原始 PDF 和作者随源码发布的图片.
+
+::: info 后续工作
+MatterSim 的多任务后续工作已经接入本站. 下一步可阅读 [MatterSim-MT 精读](/papers/mattersim-mt/), 了解模型如何从能量, 力和应力扩展到 Bader 电荷, 磁矩, Born 有效电荷和介电矩阵.
+:::
