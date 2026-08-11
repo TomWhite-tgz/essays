@@ -70,6 +70,20 @@ export default defineConfig({
         ],
       },
       {
+        text: "生成模型与锂电材料",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/mattergen/battery-generative/" },
+          { text: "1. 发现流程与筛选漏斗", link: "/mattergen/battery-generative/workflow" },
+          { text: "2. 化学空间与生成偏差", link: "/mattergen/battery-generative/chemical-space" },
+          { text: "3. 全部数学公式", link: "/mattergen/battery-generative/formulas" },
+          { text: "4. 十个候选与声子检验", link: "/mattergen/battery-generative/candidates" },
+          { text: "5. 补充材料与数据审计", link: "/mattergen/battery-generative/supplementary" },
+          { text: "6. 证据边界与总体评价", link: "/mattergen/battery-generative/critique" },
+          { text: "原文定位与数据来源", link: "/mattergen/battery-generative/source-map" },
+        ],
+      },
+      {
         text: "MatterSim",
         collapsed: false,
         items: [
