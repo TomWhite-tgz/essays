@@ -58,7 +58,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "论文库", link: "/papers/" },
-      { text: "PET-MAD", link: "/papers/pet-mad/" },
+      { text: "DPA3", link: "/papers/dpa3/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
@@ -194,6 +194,25 @@ export default defineConfig({
           { text: "10. 全部编号公式", link: "/papers/pet-mad/formulas" },
           { text: "11. 局限与审读结论", link: "/papers/pet-mad/critique" },
           { text: "原文定位索引", link: "/papers/pet-mad/source-map" },
+        ],
+      },
+      {
+        text: "DPA3",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/dpa3/" },
+          { text: "1. LAM 问题与设计目标", link: "/papers/dpa3/problem" },
+          { text: "2. Line graph series", link: "/papers/dpa3/ligs" },
+          { text: "3. 消息传递与原子能模型", link: "/papers/dpa3/architecture" },
+          { text: "4. 守恒性, 对称性与 smoothness", link: "/papers/dpa3/physics" },
+          { text: "5. Problem-oriented benchmarks", link: "/papers/dpa3/benchmarks" },
+          { text: "6. Scaling law 与架构消融", link: "/papers/dpa3/scaling" },
+          { text: "7. DPA-3.1-3M 与 zero-shot", link: "/papers/dpa3/lam" },
+          { text: "8. Dataset encoding 与 fine-tuning", link: "/papers/dpa3/multitask" },
+          { text: "9. 推理效率与成本", link: "/papers/dpa3/efficiency" },
+          { text: "10. 全部编号公式", link: "/papers/dpa3/formulas" },
+          { text: "11. 局限与审读结论", link: "/papers/dpa3/critique" },
+          { text: "原文定位索引", link: "/papers/dpa3/source-map" },
         ],
       },
       {
