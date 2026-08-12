@@ -27,6 +27,7 @@ features:
 
 | 专题 | 论文 | 状态 |
 | --- | --- | --- |
+| 通用机器学习原子间势 | [Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction](/papers/esen/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [DPA-2: a large atomic model as a multi-task learner](/papers/dpa2/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [FlashTP: Fused, Sparsity-Aware Tensor Product for Machine Learning Interatomic Potentials](/papers/flashtp/) | 已完成第一轮精读 |
 | 原子尺度基础模型 | [MatterSim-MT: A multi-task foundation model for in silico materials characterization](/papers/mattersim-mt/) | 已完成第一轮精读 |

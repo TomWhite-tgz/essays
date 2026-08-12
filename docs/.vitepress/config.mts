@@ -58,7 +58,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "论文库", link: "/papers/" },
-      { text: "MatterSim-MT", link: "/papers/mattersim-mt/" },
+      { text: "eSEN", link: "/papers/esen/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
@@ -143,6 +143,21 @@ export default defineConfig({
           { text: "9. 表征, 消融与能量守恒", link: "/papers/dpa2/representation" },
           { text: "10. 局限与审读结论", link: "/papers/dpa2/critique" },
           { text: "原文定位索引", link: "/papers/dpa2/source-map" },
+        ],
+      },
+      {
+        text: "eSEN",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/esen/" },
+          { text: "1. 从静态误差到物性要求", link: "/papers/esen/problem" },
+          { text: "2. 守恒力与能量漂移界", link: "/papers/esen/theory" },
+          { text: "3. eSEN 架构与训练策略", link: "/papers/esen/model" },
+          { text: "4. 三类平滑性设计与消融", link: "/papers/esen/smoothness" },
+          { text: "5. 材料稳定性与热导率", link: "/papers/esen/materials" },
+          { text: "6. 声子, 位移与假性改善", link: "/papers/esen/phonons" },
+          { text: "7. 分子结果, 效率与审读", link: "/papers/esen/critique" },
+          { text: "原文定位索引", link: "/papers/esen/source-map" },
         ],
       },
       {

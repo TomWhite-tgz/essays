@@ -4,6 +4,7 @@
 
 目前可阅读:
 
+- [eSEN 精读](/papers/esen/), 理解保守力, PES 光滑性和有限步长能量守恒为何决定高阶物性预测.
 - [MatterSim 精读](/mattergen/mattersim/), 理解势能面, 主动学习和有限温压评测.
 - [MatterSim-MT 精读](/papers/mattersim-mt/), 理解多任务表征如何从共享原子模型产生材料性质.
 - [DPA-2 精读](/papers/dpa2/), 理解异构 DFT 标签如何通过 shared descriptor 与 task-specific heads 共同预训练.
