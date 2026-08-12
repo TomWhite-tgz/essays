@@ -58,7 +58,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "论文库", link: "/papers/" },
-      { text: "UMA", link: "/papers/uma/" },
+      { text: "MatRIS", link: "/papers/matris/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
@@ -194,6 +194,25 @@ export default defineConfig({
           { text: "10. 全部编号公式", link: "/papers/pet-mad/formulas" },
           { text: "11. 局限与审读结论", link: "/papers/pet-mad/critique" },
           { text: "原文定位索引", link: "/papers/pet-mad/source-map" },
+        ],
+      },
+      {
+        text: "MatRIS",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/matris/" },
+          { text: "1. 研究问题与主张", link: "/papers/matris/problem" },
+          { text: "2. Atom graph 与 line graph", link: "/papers/matris/graphs" },
+          { text: "3. 逐维可分离注意力", link: "/papers/matris/attention" },
+          { text: "4. 完整架构与守恒输出", link: "/papers/matris/architecture" },
+          { text: "5. 训练策略与超参数", link: "/papers/matris/training" },
+          { text: "6. Matbench 与材料发现", link: "/papers/matris/matbench" },
+          { text: "7. 物性, 声子与分子泛化", link: "/papers/matris/generalization" },
+          { text: "8. 效率, 消融与额外任务", link: "/papers/matris/efficiency" },
+          { text: "9. 全部编号公式", link: "/papers/matris/formulas" },
+          { text: "10. v1 到 v3 的实际变化", link: "/papers/matris/versions" },
+          { text: "11. 局限与审读结论", link: "/papers/matris/critique" },
+          { text: "原文定位索引", link: "/papers/matris/source-map" },
         ],
       },
       {
