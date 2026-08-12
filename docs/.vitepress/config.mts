@@ -128,6 +128,24 @@ export default defineConfig({
         ],
       },
       {
+        text: "DPA-2",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/dpa2/" },
+          { text: "1. LAM 工作流与问题定义", link: "/papers/dpa2/workflow" },
+          { text: "2. 数据集与标签协议", link: "/papers/dpa2/data" },
+          { text: "3. PES, 环境矩阵与平滑截断", link: "/papers/dpa2/formulation" },
+          { text: "4. Repinit 与对称化", link: "/papers/dpa2/repinit" },
+          { text: "5. Repformer 与平滑注意力", link: "/papers/dpa2/repformer" },
+          { text: "6. 单任务与多任务损失", link: "/papers/dpa2/training" },
+          { text: "7. 零样本与少样本证据", link: "/papers/dpa2/generalization" },
+          { text: "8. 蒸馏与物理验证", link: "/papers/dpa2/distillation" },
+          { text: "9. 表征, 消融与能量守恒", link: "/papers/dpa2/representation" },
+          { text: "10. 局限与审读结论", link: "/papers/dpa2/critique" },
+          { text: "原文定位索引", link: "/papers/dpa2/source-map" },
+        ],
+      },
+      {
         text: "FlashTP",
         collapsed: false,
         items: [

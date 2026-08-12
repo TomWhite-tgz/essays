@@ -6,4 +6,5 @@
 
 - [MatterSim 精读](/mattergen/mattersim/), 理解势能面, 主动学习和有限温压评测.
 - [MatterSim-MT 精读](/papers/mattersim-mt/), 理解多任务表征如何从共享原子模型产生材料性质.
+- [DPA-2 精读](/papers/dpa2/), 理解异构 DFT 标签如何通过 shared descriptor 与 task-specific heads 共同预训练.
 - [FlashTP 精读](/papers/flashtp/), 理解等变 MLIP 中 CG 张量积的数学结构与 GPU 执行瓶颈.

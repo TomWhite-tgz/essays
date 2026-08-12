@@ -7,6 +7,10 @@ description: FlashTP 主文与附录的章节, 公式, 图表, 实验配置和�
 
 本索引以 14 页 ICML 2025 PMLR 版本为准. PDF 页码与论文页脚页码一致, Appendix A 从第 12 页开始, Appendix B 位于第 14 页.
 
+## 版本与源码说明
+
+FlashTP 的正式公开版本位于 [PMLR 267](https://proceedings.mlr.press/v267/lee25l.html), 并有对应的 [OpenReview 页面](https://openreview.net/forum?id=wiQe95BPaB). 截至本次复核, 未发现该论文的 arXiv 条目或公开 TeX source bundle. 因此, 本站以 PMLR PDF 为正文, 公式, 图表和附录的权威来源, 并用 PMLR 与 OpenReview 的可检索正文交叉核对元数据和关键结果. 这与 DPA-2, MatterGen 等可从 arXiv source 恢复公式的论文不同.
+
 ## 章节覆盖
 
 | 原文章节 | 页码 | 内容 | 精读页面 |
