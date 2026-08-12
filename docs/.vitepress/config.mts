@@ -58,7 +58,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "论文库", link: "/papers/" },
-      { text: "MatRIS", link: "/papers/matris/" },
+      { text: "Crystalite", link: "/papers/crystalite/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
@@ -194,6 +194,29 @@ export default defineConfig({
           { text: "10. 全部编号公式", link: "/papers/pet-mad/formulas" },
           { text: "11. 局限与审读结论", link: "/papers/pet-mad/critique" },
           { text: "原文定位索引", link: "/papers/pet-mad/source-map" },
+        ],
+      },
+      {
+        text: "Crystalite",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/crystalite/" },
+          { text: "1. 问题定义与两类任务", link: "/papers/crystalite/problem" },
+          { text: "2. 晶体表示, 周期性与对称性", link: "/papers/crystalite/representation" },
+          { text: "3. Subatomic Tokenization", link: "/papers/crystalite/tokenization" },
+          { text: "4. EDM 联合扩散与损失", link: "/papers/crystalite/diffusion" },
+          { text: "5. Transformer 架构与 GEM", link: "/papers/crystalite/architecture" },
+          { text: "6. Anti-annealing 与任务配置", link: "/papers/crystalite/sampling" },
+          { text: "7. CSP 结果", link: "/papers/crystalite/csp" },
+          { text: "8. DNG, SUN 与生成速度", link: "/papers/crystalite/dng" },
+          { text: "9. 评测指标与 thermodynamic pipeline", link: "/papers/crystalite/metrics" },
+          { text: "10. 生成晶体案例", link: "/papers/crystalite/discoveries" },
+          { text: "11. 消融与大样本行为", link: "/papers/crystalite/ablations" },
+          { text: "12. v1 到 v2 的变化", link: "/papers/crystalite/versions" },
+          { text: "13. 代码复现审计", link: "/papers/crystalite/code-audit" },
+          { text: "14. 全部编号公式", link: "/papers/crystalite/formulas" },
+          { text: "15. 局限与审读结论", link: "/papers/crystalite/critique" },
+          { text: "原文定位索引", link: "/papers/crystalite/source-map" },
         ],
       },
       {

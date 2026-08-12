@@ -22,6 +22,14 @@ description: 按学科和阅读状态浏览本站论文精读.
 | [MatterSim-MT: A multi-task foundation model for in silico materials characterization](./mattersim-mt/) | 多任务原子基础模型, 有限温压模拟, 电学与电化学表征 | 已完成第一轮精读 |
 | [MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](/mattergen/mattersim/) | 通用机器学习原子间势, 主动学习, 高温高压构型覆盖 | 已完成第一轮精读 |
 
+## 生成式材料设计
+
+| 论文 | 主题 | 状态 |
+| --- | --- | --- |
+| [Crystalite: A Lightweight Transformer for Efficient Crystal Modeling](./crystalite/) | Diffusion Transformer, Subatomic Tokenization, GEM, CSP 与 de novo generation | 已完成第一轮精读 |
+| [A generative model for inorganic materials design](/mattergen/mattergen/) | MatterGen, joint diffusion, property guidance 与实验验证 | 已完成第一轮精读 |
+| [Mining Chemical Space with Generative Models for Battery Materials](/mattergen/battery-generative/) | Battery crystal generation, screening funnel 与 phonon validation | 已完成第一轮精读 |
+
 ## 待扩展方向
 
 - 生成式材料设计.
