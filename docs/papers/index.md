@@ -11,6 +11,7 @@ description: 按学科和阅读状态浏览本站论文精读.
 
 | 论文 | 主题 | 状态 |
 | --- | --- | --- |
+| [FlashTP: Fused, Sparsity-Aware Tensor Product for Machine Learning Interatomic Potentials](./flashtp/) | 等变 MLIP 的稀疏 CG 张量积, GPU kernel fusion 与高阶自动微分加速 | 已完成第一轮精读 |
 | [MatterSim-MT: A multi-task foundation model for in silico materials characterization](./mattersim-mt/) | 多任务原子基础模型, 有限温压模拟, 电学与电化学表征 | 已完成第一轮精读 |
 | [MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](/mattergen/mattersim/) | 通用机器学习原子间势, 主动学习, 高温高压构型覆盖 | 已完成第一轮精读 |
 

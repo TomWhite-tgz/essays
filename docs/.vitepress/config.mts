@@ -128,6 +128,21 @@ export default defineConfig({
         ],
       },
       {
+        text: "FlashTP",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/flashtp/" },
+          { text: "1. MLIP 的四阶段计算链", link: "/papers/flashtp/pipeline" },
+          { text: "2. CG 张量积的数学结构", link: "/papers/flashtp/tensor-product" },
+          { text: "3. 3 类性能瓶颈", link: "/papers/flashtp/bottlenecks" },
+          { text: "4. 融合, 稀疏与 Path Aggregation", link: "/papers/flashtp/optimizations" },
+          { text: "5. 实现与 GPU 映射", link: "/papers/flashtp/implementation" },
+          { text: "6. 微基准与端到端证据", link: "/papers/flashtp/evaluation" },
+          { text: "7. 局限与审读结论", link: "/papers/flashtp/critique" },
+          { text: "原文定位索引", link: "/papers/flashtp/source-map" },
+        ],
+      },
+      {
         text: "专题入口",
         collapsed: true,
         items: [

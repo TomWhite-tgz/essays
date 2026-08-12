@@ -27,9 +27,11 @@ features:
 
 | 专题 | 论文 | 状态 |
 | --- | --- | --- |
+| 通用机器学习原子间势 | [FlashTP: Fused, Sparsity-Aware Tensor Product for Machine Learning Interatomic Potentials](/papers/flashtp/) | 已完成第一轮精读 |
 | 原子尺度基础模型 | [MatterSim-MT: A multi-task foundation model for in silico materials characterization](/papers/mattersim-mt/) | 已完成第一轮精读 |
 | 原子尺度基础模型 | [MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](/mattergen/mattersim/) | 已完成第一轮精读 |
-| MatterGen 与生成式材料设计 | A generative model for inorganic materials design | 待精读 |
+| MatterGen 与生成式材料设计 | [A generative model for inorganic materials design](/mattergen/mattergen/) | 已完成第一轮精读 |
+| MatterGen 与生成式材料设计 | [Mining Chemical Space with Generative Models for Battery Materials](/mattergen/battery-generative/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | DPA-2, UMA, PET-MAD, MatRIS 等 | 待精读 |
 
 ::: info 内容组织

@@ -2,4 +2,8 @@
 
 本专题将比较 DPA-2, UMA, PET-MAD, MatterSim, MatRIS, EquiformerV3 和 FlashTP 等工作. 比较维度包括训练数据, 对称性, 能量守恒, 推理成本, 高温高压覆盖和下游物理量验证.
 
-目前可先阅读 [MatterSim 精读](/mattergen/mattersim/), 它提供了理解后续论文所需的势能面, 主动学习和有限温压评测背景.
+目前可阅读:
+
+- [MatterSim 精读](/mattergen/mattersim/), 理解势能面, 主动学习和有限温压评测.
+- [MatterSim-MT 精读](/papers/mattersim-mt/), 理解多任务表征如何从共享原子模型产生材料性质.
+- [FlashTP 精读](/papers/flashtp/), 理解等变 MLIP 中 CG 张量积的数学结构与 GPU 执行瓶颈.
