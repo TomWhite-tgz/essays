@@ -11,6 +11,7 @@ description: 按学科和阅读状态浏览本站论文精读.
 
 | 论文 | 主题 | 状态 |
 | --- | --- | --- |
+| [UMA: A Family of Universal Models for Atoms](./uma/) | 5 个 DFT 数据域, MoLE, compute scaling 与跨领域原子模拟 | 已完成第一轮精读 |
 | [A Graph Neural Network for the Era of Large Atomistic Models](./dpa3/) | DPA3, LiGS, depth scaling, dataset encoding 与 OpenLAM-v1 | 已完成第一轮精读 |
 | [PET-MAD, a lightweight universal interatomic potential for advanced materials modeling](./pet-mad/) | 高多样性小数据, 一致 DFT, LoRA, LLPR 与复杂物性模拟 | 已完成第一轮精读 |
 | [Foundation Models for Atomistic Simulation of Chemistry and Materials](./fm-atomistic/) | 原子模拟基础模型的资格判据, scaling, 数据版图与 UMA 路线 | 已完成第一轮精读 |

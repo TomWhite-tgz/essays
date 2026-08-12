@@ -27,6 +27,7 @@ features:
 
 | 专题 | 论文 | 状态 |
 | --- | --- | --- |
+| 通用机器学习原子间势 | [UMA: A Family of Universal Models for Atoms](/papers/uma/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [A Graph Neural Network for the Era of Large Atomistic Models](/papers/dpa3/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [PET-MAD, a lightweight universal interatomic potential for advanced materials modeling](/papers/pet-mad/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [Foundation Models for Atomistic Simulation of Chemistry and Materials](/papers/fm-atomistic/) | 已完成第一轮精读 |
@@ -37,7 +38,7 @@ features:
 | 原子尺度基础模型 | [MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](/mattergen/mattersim/) | 已完成第一轮精读 |
 | MatterGen 与生成式材料设计 | [A generative model for inorganic materials design](/mattergen/mattergen/) | 已完成第一轮精读 |
 | MatterGen 与生成式材料设计 | [Mining Chemical Space with Generative Models for Battery Materials](/mattergen/battery-generative/) | 已完成第一轮精读 |
-| 通用机器学习原子间势 | UMA, MatRIS 等 | 待精读 |
+| 通用机器学习原子间势 | MatRIS 等 | 待精读 |
 
 ::: info 内容组织
 每篇长论文可以拆成多个页面. 页面之间通过侧边栏, 上一篇和下一篇按钮, 以及原文定位索引连接. 所有数学公式由 MathJax 在构建时处理.

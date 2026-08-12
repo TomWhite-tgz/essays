@@ -4,6 +4,7 @@
 
 目前可阅读:
 
+- [UMA 精读](/papers/uma/), 理解 5 个 DFT 数据域, MoLE, compute scaling, 跨领域证据与版本失效.
 - [DPA3 精读](/papers/dpa3/), 理解 LiGS, 深层 residual message passing, OMat24 scaling 与 parameter-efficient multi-task LAM.
 - [PET-MAD 精读](/papers/pet-mad/), 理解高多样性小数据, 内部一致 DFT, LoRA, LLPR 与复杂物性 workflow.
 - [原子模拟基础模型 Perspective 精读](/papers/fm-atomistic/), 理解 foundation model 的严格判据, 数据与参数 scaling, post-training 和评测缺口.

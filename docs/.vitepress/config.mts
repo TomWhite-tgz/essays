@@ -58,7 +58,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "论文库", link: "/papers/" },
-      { text: "DPA3", link: "/papers/dpa3/" },
+      { text: "UMA", link: "/papers/uma/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
@@ -213,6 +213,27 @@ export default defineConfig({
           { text: "10. 全部编号公式", link: "/papers/dpa3/formulas" },
           { text: "11. 局限与审读结论", link: "/papers/dpa3/critique" },
           { text: "原文定位索引", link: "/papers/dpa3/source-map" },
+        ],
+      },
+      {
+        text: "UMA",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/uma/" },
+          { text: "1. 训练数据与 DFT tasks", link: "/papers/uma/data" },
+          { text: "2. eSEN backbone 与全局条件", link: "/papers/uma/architecture" },
+          { text: "3. Mixture of Linear Experts", link: "/papers/uma/mole" },
+          { text: "4. 两阶段训练与算力", link: "/papers/uma/training" },
+          { text: "5. IsoFLOP scaling laws", link: "/papers/uma/scaling" },
+          { text: "6. 推理速度与显存", link: "/papers/uma/inference" },
+          { text: "7. 材料与声子证据", link: "/papers/uma/materials" },
+          { text: "8. 催化与 AdsorbML", link: "/papers/uma/catalysis" },
+          { text: "9. 分子与药物设计", link: "/papers/uma/molecules" },
+          { text: "10. 分子晶体与 MOFs", link: "/papers/uma/crystals-mofs" },
+          { text: "11. 版本与 diatomic 失效", link: "/papers/uma/versions" },
+          { text: "12. 全部编号公式", link: "/papers/uma/formulas" },
+          { text: "13. 局限与审读结论", link: "/papers/uma/critique" },
+          { text: "原文定位索引", link: "/papers/uma/source-map" },
         ],
       },
       {
