@@ -11,6 +11,7 @@ description: 按学科和阅读状态浏览本站论文精读.
 
 | 论文 | 主题 | 状态 |
 | --- | --- | --- |
+| [PET-MAD, a lightweight universal interatomic potential for advanced materials modeling](./pet-mad/) | 高多样性小数据, 一致 DFT, LoRA, LLPR 与复杂物性模拟 | 已完成第一轮精读 |
 | [Foundation Models for Atomistic Simulation of Chemistry and Materials](./fm-atomistic/) | 原子模拟基础模型的资格判据, scaling, 数据版图与 UMA 路线 | 已完成第一轮精读 |
 | [Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction](./esen/) | eSEN, PES 光滑性, 能量守恒测试与高阶物性预测 | 已完成第一轮精读 |
 | [DPA-2: a large atomic model as a multi-task learner](./dpa2/) | 异构 DFT 数据的多任务预训练, 少样本微调与势函数蒸馏 | 已完成第一轮精读 |

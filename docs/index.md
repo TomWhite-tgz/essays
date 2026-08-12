@@ -27,6 +27,7 @@ features:
 
 | 专题 | 论文 | 状态 |
 | --- | --- | --- |
+| 通用机器学习原子间势 | [PET-MAD, a lightweight universal interatomic potential for advanced materials modeling](/papers/pet-mad/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [Foundation Models for Atomistic Simulation of Chemistry and Materials](/papers/fm-atomistic/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction](/papers/esen/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [DPA-2: a large atomic model as a multi-task learner](/papers/dpa2/) | 已完成第一轮精读 |

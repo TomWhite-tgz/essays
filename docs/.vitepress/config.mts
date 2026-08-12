@@ -58,7 +58,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "论文库", link: "/papers/" },
-      { text: "原子模拟基础模型", link: "/papers/fm-atomistic/" },
+      { text: "PET-MAD", link: "/papers/pet-mad/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
@@ -175,6 +175,25 @@ export default defineConfig({
           { text: "8. 如何证明模型 foundational", link: "/papers/fm-atomistic/evaluation" },
           { text: "9. OMol25, UMA 与审读结论", link: "/papers/fm-atomistic/frontier" },
           { text: "原文定位索引", link: "/papers/fm-atomistic/source-map" },
+        ],
+      },
+      {
+        text: "PET-MAD",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/pet-mad/" },
+          { text: "1. MAD 数据集与一致 DFT", link: "/papers/pet-mad/data" },
+          { text: "2. PET 架构, 训练与 LoRA", link: "/papers/pet-mad/model" },
+          { text: "3. 跨数据集 benchmark 与速度", link: "/papers/pet-mad/benchmarks" },
+          { text: "4. LLPR 不确定性与传播", link: "/papers/pet-mad/uncertainty" },
+          { text: "5. 离子输运与 GaAs 熔点", link: "/papers/pet-mad/transport-melting" },
+          { text: "6. 合金偏析与液态水", link: "/papers/pet-mad/alloy-water" },
+          { text: "7. NMR 晶体学与 BTO", link: "/papers/pet-mad/nmr-bto" },
+          { text: "8. Fine-tuning 学习曲线", link: "/papers/pet-mad/finetuning" },
+          { text: "9. Direct force 与 MTS", link: "/papers/pet-mad/direct-force" },
+          { text: "10. 全部编号公式", link: "/papers/pet-mad/formulas" },
+          { text: "11. 局限与审读结论", link: "/papers/pet-mad/critique" },
+          { text: "原文定位索引", link: "/papers/pet-mad/source-map" },
         ],
       },
       {
