@@ -70,6 +70,22 @@ export default defineConfig({
         ],
       },
       {
+        text: "MatterGen",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/mattergen/mattergen/" },
+          { text: "1. 符号, 晶体表示与扩散基础", link: "/mattergen/mattergen/diffusion-basics" },
+          { text: "2. 原子类型扩散与周期坐标起点", link: "/mattergen/mattergen/atom-types" },
+          { text: "3. 周期坐标与晶格扩散", link: "/mattergen/mattergen/geometry-diffusion" },
+          { text: "4. Score 网络与联合损失", link: "/mattergen/mattergen/network-loss" },
+          { text: "5. 属性适配与条件引导", link: "/mattergen/mattergen/guidance" },
+          { text: "6. 数据, S.U.N. 与无条件生成", link: "/mattergen/mattergen/evaluation" },
+          { text: "7. 条件生成与实验验证", link: "/mattergen/mattergen/conditional-evidence" },
+          { text: "8. 局限与后续争议", link: "/mattergen/mattergen/critique" },
+          { text: "原文定位索引", link: "/mattergen/mattergen/source-map" },
+        ],
+      },
+      {
         text: "生成模型与锂电材料",
         collapsed: false,
         items: [
