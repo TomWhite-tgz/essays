@@ -58,7 +58,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "论文库", link: "/papers/" },
-      { text: "eSEN", link: "/papers/esen/" },
+      { text: "原子模拟基础模型", link: "/papers/fm-atomistic/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
@@ -158,6 +158,23 @@ export default defineConfig({
           { text: "6. 声子, 位移与假性改善", link: "/papers/esen/phonons" },
           { text: "7. 分子结果, 效率与审读", link: "/papers/esen/critique" },
           { text: "原文定位索引", link: "/papers/esen/source-map" },
+        ],
+      },
+      {
+        text: "原子模拟基础模型",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/fm-atomistic/" },
+          { text: "1. Foundation model 资格判据", link: "/papers/fm-atomistic/definition" },
+          { text: "2. MLIP 架构谱系与共同骨架", link: "/papers/fm-atomistic/architecture" },
+          { text: "3. 物理归纳偏置与 bitter lesson", link: "/papers/fm-atomistic/inductive-bias" },
+          { text: "4. 现有 MLIP 的失效模式", link: "/papers/fm-atomistic/failure-modes" },
+          { text: "5. 大规模数据版图", link: "/papers/fm-atomistic/datasets" },
+          { text: "6. 数据缺口与标签质量", link: "/papers/fm-atomistic/data-quality" },
+          { text: "7. Pre-training 与 post-training", link: "/papers/fm-atomistic/training" },
+          { text: "8. 如何证明模型 foundational", link: "/papers/fm-atomistic/evaluation" },
+          { text: "9. OMol25, UMA 与审读结论", link: "/papers/fm-atomistic/frontier" },
+          { text: "原文定位索引", link: "/papers/fm-atomistic/source-map" },
         ],
       },
       {

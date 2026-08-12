@@ -11,6 +11,7 @@ description: 按学科和阅读状态浏览本站论文精读.
 
 | 论文 | 主题 | 状态 |
 | --- | --- | --- |
+| [Foundation Models for Atomistic Simulation of Chemistry and Materials](./fm-atomistic/) | 原子模拟基础模型的资格判据, scaling, 数据版图与 UMA 路线 | 已完成第一轮精读 |
 | [Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction](./esen/) | eSEN, PES 光滑性, 能量守恒测试与高阶物性预测 | 已完成第一轮精读 |
 | [DPA-2: a large atomic model as a multi-task learner](./dpa2/) | 异构 DFT 数据的多任务预训练, 少样本微调与势函数蒸馏 | 已完成第一轮精读 |
 | [FlashTP: Fused, Sparsity-Aware Tensor Product for Machine Learning Interatomic Potentials](./flashtp/) | 等变 MLIP 的稀疏 CG 张量积, GPU kernel fusion 与高阶自动微分加速 | 已完成第一轮精读 |
