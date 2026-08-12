@@ -58,7 +58,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "论文库", link: "/papers/" },
-      { text: "Crystalite", link: "/papers/crystalite/" },
+      { text: "EquiformerV3", link: "/papers/equiformer-v3/" },
       { text: "阅读说明", link: "/guide/reading-method" },
     ],
     sidebar: [
@@ -217,6 +217,27 @@ export default defineConfig({
           { text: "14. 全部编号公式", link: "/papers/crystalite/formulas" },
           { text: "15. 局限与审读结论", link: "/papers/crystalite/critique" },
           { text: "原文定位索引", link: "/papers/crystalite/source-map" },
+        ],
+      },
+      {
+        text: "EquiformerV3",
+        collapsed: false,
+        items: [
+          { text: "总览与阅读路线", link: "/papers/equiformer-v3/" },
+          { text: "1. 研究问题与主张边界", link: "/papers/equiformer-v3/problem" },
+          { text: "2. SE(3) irreps 与 Equiformer 谱系", link: "/papers/equiformer-v3/equivariance" },
+          { text: "3. 完整架构与数据流", link: "/papers/equiformer-v3/architecture" },
+          { text: "4. 软件优化与成本", link: "/papers/equiformer-v3/efficiency" },
+          { text: "5. Merged layer normalization", link: "/papers/equiformer-v3/normalization" },
+          { text: "6. 平滑 cutoff attention", link: "/papers/equiformer-v3/smooth-cutoff" },
+          { text: "7. SwiGLU-S2 激活", link: "/papers/equiformer-v3/swiglu-s2" },
+          { text: "8. 体阶表达力与等变误差", link: "/papers/equiformer-v3/expressivity" },
+          { text: "9. 数据, 训练与 DeNS", link: "/papers/equiformer-v3/training" },
+          { text: "10. OC20, OMat24 与 Matbench", link: "/papers/equiformer-v3/benchmarks" },
+          { text: "11. 代码复现审计", link: "/papers/equiformer-v3/code-audit" },
+          { text: "12. 公式总表", link: "/papers/equiformer-v3/formulas" },
+          { text: "13. 局限与审读结论", link: "/papers/equiformer-v3/critique" },
+          { text: "原文定位索引", link: "/papers/equiformer-v3/source-map" },
         ],
       },
       {

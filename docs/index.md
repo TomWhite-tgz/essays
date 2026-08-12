@@ -27,6 +27,7 @@ features:
 
 | 专题 | 论文 | 状态 |
 | --- | --- | --- |
+| 通用机器学习原子间势 | [EquiformerV3: Scaling Efficient, Expressive, and General SE(3)-Equivariant Graph Attention Transformers](/papers/equiformer-v3/) | 已完成第一轮精读 |
 | 生成式材料设计 | [Crystalite: A Lightweight Transformer for Efficient Crystal Modeling](/papers/crystalite/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [MatRIS: Toward Reliable and Efficient Pretrained Machine Learning Interatomic Potentials](/papers/matris/) | 已完成第一轮精读 |
 | 通用机器学习原子间势 | [UMA: A Family of Universal Models for Atoms](/papers/uma/) | 已完成第一轮精读 |

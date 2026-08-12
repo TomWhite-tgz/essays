@@ -4,6 +4,7 @@
 
 目前可阅读:
 
+- [EquiformerV3 精读](/papers/equiformer-v3/), 理解 fused SO(2) operations, merged normalization, smooth cutoff 与 SwiGLU-S2 如何共同改善等变 Transformer.
 - [MatRIS 精读](/papers/matris/), 理解显式三体双图, dimension-wise separable attention, 大规模训练策略与跨域证据边界.
 - [UMA 精读](/papers/uma/), 理解 5 个 DFT 数据域, MoLE, compute scaling, 跨领域证据与版本失效.
 - [DPA3 精读](/papers/dpa3/), 理解 LiGS, 深层 residual message passing, OMat24 scaling 与 parameter-efficient multi-task LAM.

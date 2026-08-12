@@ -11,6 +11,7 @@ description: 按学科和阅读状态浏览本站论文精读.
 
 | 论文 | 主题 | 状态 |
 | --- | --- | --- |
+| [EquiformerV3: Scaling Efficient, Expressive, and General SE(3)-Equivariant Graph Attention Transformers](./equiformer-v3/) | SO(2) operation fusion, merged normalization, smooth cutoff 与 SwiGLU-S2 | 已完成第一轮精读 |
 | [MatRIS: Toward Reliable and Efficient Pretrained Machine Learning Interatomic Potentials](./matris/) | 显式三体双图, 逐维可分离注意力, 训练工程与跨域 MLIP 评测 | 已完成第一轮精读 |
 | [UMA: A Family of Universal Models for Atoms](./uma/) | 5 个 DFT 数据域, MoLE, compute scaling 与跨领域原子模拟 | 已完成第一轮精读 |
 | [A Graph Neural Network for the Era of Large Atomistic Models](./dpa3/) | DPA3, LiGS, depth scaling, dataset encoding 与 OpenLAM-v1 | 已完成第一轮精读 |
