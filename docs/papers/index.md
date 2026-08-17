@@ -11,8 +11,25 @@ description: 按学科和阅读状态浏览本站论文精读.
 
 | 论文 | 主题 | 状态 |
 | --- | --- | --- |
+| [EquiformerV3: Scaling Efficient, Expressive, and General SE(3)-Equivariant Graph Attention Transformers](./equiformer-v3/) | SO(2) operation fusion, merged normalization, smooth cutoff 与 SwiGLU-S2 | 已完成第一轮精读 |
+| [MatRIS: Toward Reliable and Efficient Pretrained Machine Learning Interatomic Potentials](./matris/) | 显式三体双图, 逐维可分离注意力, 训练工程与跨域 MLIP 评测 | 已完成第一轮精读 |
+| [UMA: A Family of Universal Models for Atoms](./uma/) | 5 个 DFT 数据域, MoLE, compute scaling 与跨领域原子模拟 | 已完成第一轮精读 |
+| [A Graph Neural Network for the Era of Large Atomistic Models](./dpa3/) | DPA3, LiGS, depth scaling, dataset encoding 与 OpenLAM-v1 | 已完成第一轮精读 |
+| [PET-MAD, a lightweight universal interatomic potential for advanced materials modeling](./pet-mad/) | 高多样性小数据, 一致 DFT, LoRA, LLPR 与复杂物性模拟 | 已完成第一轮精读 |
+| [Foundation Models for Atomistic Simulation of Chemistry and Materials](./fm-atomistic/) | 原子模拟基础模型的资格判据, scaling, 数据版图与 UMA 路线 | 已完成第一轮精读 |
+| [Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction](./esen/) | eSEN, PES 光滑性, 能量守恒测试与高阶物性预测 | 已完成第一轮精读 |
+| [DPA-2: a large atomic model as a multi-task learner](./dpa2/) | 异构 DFT 数据的多任务预训练, 少样本微调与势函数蒸馏 | 已完成第一轮精读 |
+| [FlashTP: Fused, Sparsity-Aware Tensor Product for Machine Learning Interatomic Potentials](./flashtp/) | 等变 MLIP 的稀疏 CG 张量积, GPU kernel fusion 与高阶自动微分加速 | 已完成第一轮精读 |
 | [MatterSim-MT: A multi-task foundation model for in silico materials characterization](./mattersim-mt/) | 多任务原子基础模型, 有限温压模拟, 电学与电化学表征 | 已完成第一轮精读 |
 | [MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures](/mattergen/mattersim/) | 通用机器学习原子间势, 主动学习, 高温高压构型覆盖 | 已完成第一轮精读 |
+
+## 生成式材料设计
+
+| 论文 | 主题 | 状态 |
+| --- | --- | --- |
+| [Crystalite: A Lightweight Transformer for Efficient Crystal Modeling](./crystalite/) | Diffusion Transformer, Subatomic Tokenization, GEM, CSP 与 de novo generation | 已完成第一轮精读 |
+| [A generative model for inorganic materials design](/mattergen/mattergen/) | MatterGen, joint diffusion, property guidance 与实验验证 | 已完成第一轮精读 |
+| [Mining Chemical Space with Generative Models for Battery Materials](/mattergen/battery-generative/) | Battery crystal generation, screening funnel 与 phonon validation | 已完成第一轮精读 |
 
 ## 待扩展方向
 
